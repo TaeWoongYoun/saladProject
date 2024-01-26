@@ -236,11 +236,18 @@ nav svg{
     height: 100%;
     background-color: aliceblue;
     float: left;
-    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minitext{
+    width: 80%;
+    height: 60%;
+    /* background-color: #94a9ff; */
 }
 
 .textBox h1{
-    padding-top: 200px;
     font-weight: 900;
     text-shadow: 1px 1px 1px black;
 }
@@ -277,13 +284,24 @@ nav svg{
     transform: rotate(270deg);
 }
 
-.left button{
+.leftBtn{
     position: relative;
+    width: 100%;
+    height: 70px;
+    /* background-color: #5778ff; */
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.leftBtn button{
     width: 120px;
     height: 40px;
-    top: 45%;
-    left: 35%;
-} 
+    background-color: yellowgreen;
+    font-weight: 700;
+    box-shadow: 1px 1px 1px black;
+}
 
 .right{
     width: 75%;
@@ -294,16 +312,207 @@ nav svg{
     width: 100%;
     height: 65%;
     background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
 }
 
 .bottom{
     width: 100%;
     height: 35%;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomBox{
+    width: 90%;
+    height: 80%;
+    /* background-color: #5778ff; */
+    float: left;
+}
+
+.bottomBox h3{
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.bottomBox p{
+    padding-top: 10px;
+}
+
+.content3{
+    width: 100%;
+    height: 700px;
+    display: flex
+}
+
+.textarea{
+    width: 50%;
+    height: 100%;
+    background-color: springgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.areaBox{
+    width: 60%;
+    height: 70%;
+    /* background-color: #94a9ff; */
+}
+
+.areaBox h3{
+    font-weight: 900;
+    padding: 5px;
+}
+
+.p1{
+    padding-top: 15px;
+}
+
+.p2{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.iconarea{
+    margin-top: 60px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+
+.iconarea svg{
+    width: 60px;
+    height: 60px;
+}
+
+.imgarea{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #5778ff; */
+}
+
+.content4{
+    width: 100%;
+    height: 650px;
+    background-color: green;
+    display: flex;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con svg{
+    width: 60px;
+    height: 60px;
+    color: lawngreen;
+}
+
+.con button{
+    background-color: green;
+    border: none;
+    font-weight: 800;
+}
+
+.conBox{
+    width: 60%;
+    height: 50%;
+    /* background-color: #5778ff; */
+    text-align: center;
+}
+
+.conBox svg{
+    padding-top: 10px;
+}
+
+.conBox h5{
+    color: aliceblue;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.conBox p{
+    padding-top: 10px;
+}
+
+.conBox button{
+    margin-top: 10px;
+    color: lawngreen;
+}
+.con1{
+    width: 33%;
+    height: 100%;
+    /* background-color: #94a9ff; */
+}
+
+.con2{
+    width: 34%;
+    height: 100%;
+    
+}
+
+.con3{
+    width: 33%;
+    height: 100%;
+    
 }
 
 footer{
     width: 100%;
-    height: 500px;
+    height: 200px;
     background-color: black;
+}
+
+.footerText{
+    width: 100%;
+    height: 100px;
+    /* background-color: #94a9ff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText h2{
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.fput{
+    width: 100%;
+    height: 100px;
+    /* background-color: #5778ff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fput input{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid yellowgreen;
+}
+
+.fput button{
+    color: aliceblue;
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    border:2px solid lawngreen;
+    border-left: none;
+    margin-left: -5px;
 }

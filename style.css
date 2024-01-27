@@ -39,9 +39,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    stroke-width: 50px;
 }
 
-.ham svg{
+.ham img{
     width: 50px;
     height: 50px;
 }

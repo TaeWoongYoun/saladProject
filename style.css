@@ -102,7 +102,7 @@ nav svg{
     width: 100%;
     text-align: center;
     line-height: 50px;
-    background-color: #5778ff;
+    background-color: #009772;
 }
 
 .menu a {
@@ -111,7 +111,7 @@ nav svg{
 
 .submenu > li {
     line-height: 50px;
-    background-color: #94a9ff;
+    background-color: #45CAA2;
 }
 
 .submenu {
@@ -120,13 +120,23 @@ nav svg{
 }
 
 .menu > li:hover {
-    background-color: #94a9ff;
+    background-color: #45CAA2;
     /* transition-duration: 0.5s; */
 }
 
 .menu > li:hover .submenu {
     height: 250px; /*서브메뉴 li한개의 높이 50*5*/
     /* transition-duration: 1s; */
+}
+
+.menu > li:hover{
+    background-color: #002500;
+    color: aliceblue;
+}
+
+.submenu > li:hover{
+    background-color: #002500;
+    color: aliceblue;
 }
 
 .slide{

@@ -118,11 +118,7 @@ nav svg{
 .submenu {
     height: 0; /*ul의 높이를 안보이게 처리*/
     overflow: hidden;
-}
-
-.menu > li:hover {
-    background-color: #45CAA2;
-    /* transition-duration: 0.5s; */
+    transition: all 0.5s;
 }
 
 .menu > li:hover .submenu {

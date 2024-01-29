@@ -34,7 +34,7 @@ header{
 }
 
 .ham{
-    width: 10%;
+    width: 5%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -48,27 +48,14 @@ header{
 }
 
 .none{
-    width: 80%;
+    width: 95%;
     height: 100%;
-}
-
-.sns{
-    width: 10%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sns svg{
-    width: 40px;
-    height: 40px;
-    margin: 10px;
 }
 
 nav{
     position: fixed;
     top: 0;
+    right: 0;
     width: 0px;
     height: 1000px;
     background-color: aliceblue;
@@ -89,7 +76,7 @@ nav svg{
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
 }
 
@@ -474,7 +461,7 @@ nav svg{
 
 footer{
     width: 100%;
-    height: 200px;
+    height: 280px;
     background-color: black;
 }
 
@@ -502,18 +489,75 @@ footer{
 }
 
 .fput input{
-    width: 300px;
+    width: 400px;
     height: 50px;
     background-color: black;
     border: 2px solid yellowgreen;
+    outline: none;
+    color: aliceblue;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 3px;
 }
 
 .fput button{
     color: aliceblue;
-    width: 70px;
+    width: 100px;
     height: 50px;
     background-color: black;
     border:2px solid lawngreen;
     border-left: none;
-    margin-left: -5px;
+    margin-left: px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footerCon{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fCon{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy{
+    width: 50%;
+    height: 100%;
+    color: darkgray;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sns{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #5778ff; */
+}
+
+.snsBox{
+    width: 30%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sns img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
 }

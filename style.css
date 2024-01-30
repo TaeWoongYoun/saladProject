@@ -316,7 +316,7 @@ nav svg{
     justify-content: center;
 } 
 
-.leftBtn button{
+.leftBtn input{
     width: 120px;
     height: 40px;
     background-color: yellowgreen;

@@ -55,7 +55,7 @@ main{
 header{
     width: 100%;
     height: 70px;
-    background-color: chartreuse;
+    background-color: #f9faef;
     display: flex;
 }
 
@@ -172,6 +172,11 @@ nav svg{
     background-color: black;
 }
 
+.window > li > img{
+    width: 100%;
+    height: 100%;
+}
+
 @keyframes window{
     0%{
         left: 0;
@@ -220,7 +225,7 @@ nav svg{
     position: absolute;
     width: 300%;
     height: 100%;
-    background-color: aqua;
+    background-color: #f9faef;
     display: flex;
     animation: 20s infinite linear spin;
 }
@@ -252,10 +257,15 @@ nav svg{
     background-color: aquamarine;
 }
 
+.imgBox img{
+    width: 100%;
+    height: 100%;
+}
+
 .textBox{
     width: 50%;
     height: 100%;
-    background-color: aliceblue;
+    background-color: #ebe1cf;
     float: left;
     display: flex;
     align-items: center;
@@ -263,12 +273,14 @@ nav svg{
 }
 
 .minitext{
-    width: 80%;
+    width: 60%;
     height: 60%;
     /* background-color: #94a9ff; */
 }
 
 .textBox h1{
+    font-style: 38px;
+    margin-top: 50px;
     font-weight: 900;
     text-shadow: 1px 1px 1px black;
 }
@@ -287,20 +299,20 @@ nav svg{
 .left{
     width: 25%;
     height: 100%;
-    background-color: yellowgreen;
+    background-color: #bade4f;
 }
 
 .leftText{
     position: relative;
     /* background-color: #5778ff;  */
     top: 20%;   
-    right: 4%;
-    width: 100%;
-    height: 25%;
+    right: 24%;
+    width: 500px;
+    height: 40%;
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    font-size: 72px;
+    font-size: 66px;
     font-weight: 900;
     transform: rotate(270deg);
 }
@@ -319,7 +331,7 @@ nav svg{
 .leftBtn input{
     width: 120px;
     height: 40px;
-    background-color: yellowgreen;
+    background-color: #bade4f;
     font-weight: 700;
     box-shadow: 1px 1px 1px black;
 }
@@ -339,10 +351,15 @@ nav svg{
     font-size: 72px;
 }
 
+.top img{
+    width: 100%;
+    height: 100%;
+}
+
 .bottom{
     width: 100%;
     height: 35%;
-    background-color: aqua;
+    background-color: #ebfacf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,10 +375,12 @@ nav svg{
 .bottomBox h3{
     padding-top: 50px;
     font-weight: 900;
+    text-shadow: 1px 1px 1px black;
 }
 
 .bottomBox p{
-    padding-top: 10px;
+    padding-top: 20px;
+    font-weight: 600;
 }
 
 .content3{
@@ -373,7 +392,7 @@ nav svg{
 .textarea{
     width: 50%;
     height: 100%;
-    background-color: springgreen;
+    background-color: #fffacd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -385,18 +404,18 @@ nav svg{
     /* background-color: #94a9ff; */
 }
 
-.areaBox h3{
+.areaBox h1{
+    text-shadow: 1px 1px 1px black;
+    padding: 25px;
     font-weight: 900;
-    padding: 5px;
+    font-size: 38px;
+
 }
 
 .p1{
-    padding-top: 15px;
-}
-
-.p2{
-    padding-top: 15px;
+    padding-top: 30px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .iconarea{
@@ -444,7 +463,7 @@ nav svg{
 }
 
 .con button{
-    background-color: green;
+    background-color: #0BA000;
     border: none;
     font-weight: 800;
 }
@@ -461,19 +480,17 @@ nav svg{
 }
 
 .conBox h5{
-    color: aliceblue;
+    color: #fff;
     font-weight: 900;
-    padding-top: 30px;
+    padding-top: 50px;
+    font-size: 24px;
 }
 
 .conBox p{
-    padding-top: 10px;
+    padding-top: 30px;
+    color: #eee;
 }
 
-.conBox button{
-    margin-top: 10px;
-    color: lawngreen;
-}
 .con1{
     width: 33%;
     height: 100%;
@@ -495,7 +512,7 @@ nav svg{
 footer{
     width: 100%;
     height: 280px;
-    background-color: black;
+    background-color: #fff;
 }
 
 .footerText{
@@ -509,7 +526,7 @@ footer{
 
 .footerText h2{
     font-weight: 900;
-    color: aliceblue;
+    color: black;
 }
 
 .fput{
@@ -524,7 +541,7 @@ footer{
 .input{
     width: 400px;
     height: 50px;
-    background-color: black;
+    background-color: #fff;
     border: 2px solid yellowgreen;
     outline: none;
     color: aliceblue;
@@ -535,11 +552,11 @@ footer{
 }
 
 .fBtn{
-    color: aliceblue;
+    color: black;
     width: 100px;
     height: 50px;
-    background-color: black;
-    border:2px solid lawngreen;
+    background-color: #fff;
+    border:2px solid #0BA000;
     border-left: none;
     font-weight: 600;
     font-size: 14px;
@@ -547,8 +564,8 @@ footer{
 }
 
 .fBtn:hover{
-    background-color: lawngreen;
-    color: black;
+    background-color: #0BA000;
+    color: #fff;
 }
 
 .footerCon{

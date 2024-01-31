@@ -444,6 +444,11 @@ nav svg{
     /* background-color: #5778ff; */
 }
 
+.imgarea img{
+    width: 100%;
+    height: 100%;
+}
+
 .content4{
     width: 100%;
     height: 650px;

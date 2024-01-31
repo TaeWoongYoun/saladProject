@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body ul{ 
+    padding-left: 0;
+}
+
+body li{
+    list-style: none;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.logo{
+    position: fixed;
+    z-index: 10;
+    width: 200px;
+    height: 60px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 900;
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+/* 헤더 영역 */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.ham{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    stroke-width: 50px;
+}
+
+.ham img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.none{
+    width: 95%;
+    height: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 1000px;
+    background-color: aliceblue;
+    z-index: 5;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+
+.noneBox{
+    width: 300px;
+    visibility: visible;
+    opacity: 1;
+}
+
+nav svg{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu{
+    width: 300px;
+    overflow: hidden;
+    margin: 70px auto;
+}
+
+.menu > li {
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #009772;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.submenu > li {
+    line-height: 50px;
+    background-color: #45CAA2;
+}
+
+.submenu {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.menu > li:hover .submenu {
+    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
+    /* transition-duration: 1s; */
+}
+
+.menu > li:hover{
+    background-color: #002500;
+    color: aliceblue;
+}
+
+.submenu > li:hover{
+    background-color: #002500;
+    color: aliceblue;
+}

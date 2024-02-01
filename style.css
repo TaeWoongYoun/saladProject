@@ -152,7 +152,7 @@ nav svg{
 
 .slide{
     width: 100%;
-    height: 730px;
+    height: 550px;
     position: relative;
     overflow: hidden;
     color: aliceblue;
@@ -162,13 +162,13 @@ nav svg{
     display: flex;
     position: absolute;
     width: 400%;
-    height: 730px;
+    height: 550px;
     animation: 6s infinite linear window;
 }
 
 .window li{
     width: 100%;
-    height: 730px;
+    height: 550px;
     background-color: black;
 }
 
